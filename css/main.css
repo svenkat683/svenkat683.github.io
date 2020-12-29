@@ -268,12 +268,20 @@ body {
   width: 100vw;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
 .dp-container {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
   clip-path: circle(50% at 50% 50%);
+  top: 150px;
 }
 
 .dp {
