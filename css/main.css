@@ -261,3 +261,27 @@ textarea {
   }
 }
 
+/* Custom styles */
+body {
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+.dp-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.dp {
+  width: 100%;
+  background: url(../img/dp.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  transform: scale(1.5);
+  position: relative;
+  bottom: 15px;
+}
