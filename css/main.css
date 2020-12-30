@@ -277,8 +277,8 @@ body {
 
 .dp-container {
   position: relative;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   overflow: hidden;
   clip-path: circle(50% at 50% 50%);
   top: 150px;
