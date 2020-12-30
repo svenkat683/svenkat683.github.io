@@ -331,3 +331,25 @@ img.dp-image {
   width: 100%;
   height: 100%;
 }
+
+#typed .everest-engineering {
+  text-decoration: none;
+  color: black;
+}
+
+#typed .everest-engineering::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -4px;
+  margin: 0 auto;
+  left: 61px;
+  right: 0;
+  width: 0;
+  background: rgb(253, 171, 44);
+
+  -o-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+}
