@@ -292,4 +292,5 @@ body {
   transform: scale(1.5);
   position: relative;
   bottom: 15px;
+  right: 1px;
 }
