@@ -277,11 +277,7 @@ body {
 
 .container {
   display: flex;
-  /*justify-content: center;*/
-  /*justify-items: center;*/
-  /*align-items: center;*/
   position: relative;
-  /*top: 100px;*/
   width: 100vw;
   height: 75vh;
 }
@@ -352,4 +348,38 @@ img.dp-image {
   -moz-transition:.5s;
   -webkit-transition:.5s;
   transition: .5s;
+}
+
+@media only screen and (max-width: 35em) {
+  .container {
+    flex-direction: column;
+  }
+  .identity-pic-container {
+    display: flex;
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .identity-details-container {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .dp-container {
+    left: 0;
+  }
+
+
+  .identity-details-container .info {
+    position: relative;
+    top: 20%;
+    left: 0;
+    width: 80%;
+  }
+
+  #typed .everest-engineering::after {
+    left: 103px;
+  }
 }
