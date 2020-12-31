@@ -316,6 +316,7 @@ body {
   align-items: center;
   font-size: 24px;
   padding-bottom: 30px;
+  opacity: 0;
 }
 
 .identity-details-container .info {
@@ -409,9 +410,6 @@ img.dp-image {
   width: 100%;
 }
 
-.githubRef, .linkedinRef {
-}
-
 .reach-out {
   position: relative;
   display: flex;
@@ -419,4 +417,5 @@ img.dp-image {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  opacity: 0;
 }
