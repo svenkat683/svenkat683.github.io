@@ -278,8 +278,8 @@ body {
 .container {
   display: flex;
   position: relative;
-  width: 100vw;
-  height: 75vh;
+  width: 100%;
+  height: 500px;
 }
 
 .identity-pic-container, .identity-details-container {
@@ -291,7 +291,7 @@ body {
   height: 160px;
   overflow: hidden;
   clip-path: circle(50% at 50% 50%);
-  top: 20%;
+  top: 30%;
   left: 20%;
 }
 
@@ -315,11 +315,12 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 24px;
+  padding-bottom: 30px;
 }
 
 .identity-details-container .info {
   position: relative;
-  top: 20%;
+  top: 30%;
   left: 40%;
 }
 
@@ -356,6 +357,7 @@ img.dp-image {
 @media only screen and (max-width: 35em) {
   .container {
     flex-direction: column;
+    height: 550px;
   }
   .identity-pic-container {
     display: flex;
@@ -369,16 +371,18 @@ img.dp-image {
     display: flex;
     justify-content: center;
     font-size: 22px;
+    bottom: 5%;
   }
 
   .dp-container {
     left: 0;
+    top: 0;
   }
 
 
   .identity-details-container .info {
     position: relative;
-    top: 20%;
+    top: 0;
     left: 0;
     width: 80%;
     display: inline;
@@ -387,4 +391,32 @@ img.dp-image {
   #typed .everest-engineering::after {
     right: 15px;
   }
+
+  .reach-out {
+    font-size: 22px !important;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
+.social-media-container .github, .social-media-container .linkedin {
+  width: 40px;
+  margin: 0 10px;
+}
+
+.githubRef img, .linkedinRef img{
+  position: relative;
+  width: 100%;
+}
+
+.githubRef, .linkedinRef {
+}
+
+.reach-out {
+  position: relative;
+  display: flex;
+  font-size: 26px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
