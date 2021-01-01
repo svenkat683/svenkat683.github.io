@@ -403,6 +403,11 @@ img.dp-image {
 .social-media-container .github, .social-media-container .linkedin {
   width: 40px;
   margin: 0 10px;
+  border: 0 solid transparent;
+  border-radius: 30px;
+  -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .githubRef img, .linkedinRef img{
